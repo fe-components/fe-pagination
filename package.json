@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-component",
+  "name": "fe-pagination",
   "version": "1.0.1",
   "description": "",
   "main": "src/index.js",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.pro:react/boilerplate-component.git"
+    "url": "git@github.com:fe-components/fe-pagination.git"
   },
   "devDependencies": {
     "@kadira/storybook": "^1.12.0",
@@ -72,6 +72,7 @@
   },
   "dependencies": {
     "babel-preset-fe": "^1.0.13",
+    "fe-select": "^1.0.7",
     "react": "^15.0.2",
     "react-dom": "^15.0.2"
   },

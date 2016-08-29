@@ -1,0 +1,57 @@
+$higltColor = #2c97e8
+
+.wrap
+  text-align center
+  button
+    border none
+    outline none
+    white-space nowrap
+    padding 0 0.5em
+    min-width 1.8em
+    vertical-align middle
+    text-align center
+    overflow hidden
+    position relative
+    display inline-block
+    color #555
+    background #fff
+    border 1px solid #ccc
+    line-height 1.7
+    margin 0 5px
+    cursor pointer
+    &:hover
+      background rgba($higltColor, .9)
+      border-color rgba($higltColor, .9)
+      color rgba(#fff, .9)
+    &:active
+      background $higltColor
+      border-color $higltColor
+      color #fff
+    &[disabled]
+      color #ccc
+    &[disabled]:hover
+      background #fff
+      border-color #ccc
+      color #ccc
+      cursor not-allowed
+  .pageSizeContainer
+    float left
+    line-height 1.7
+    font-size 13px
+  .inputContainer
+    display inline-block
+    font-size 13px
+    padding-left 1em
+    input
+      width 2em
+  :global .Select-control
+    height 26px
+    font-size 13px
+  :global .Select-input
+    height 24px
+  :global .Select-placeholder
+    line-height 26px
+   :global .Select-value
+     line-height 26px !important
+     text-align left
+      
